@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Middle Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Middle Township boundary, adaptively resampled to 21.0 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 6.412976278386692,
+  "pixelSizeFeet": 21.039948419819687,
+  "adaptiveResolution": true,
+  "width": 3814,
+  "height": 4196,
+  "nodata": -999999,
+  "minMeters": -1.143,
+  "maxMeters": 19.525,
+  "meanMeters": 2.17,
+  "stdDevMeters": 2.085,
+  "minFeet": -3.7499999999850004,
+  "maxFeet": 64.058398949875,
+  "webMercatorBounds": [
+    -8341803.264925,
+    4720457.052107889,
+    -8317344.173399233,
+    4747365.900572
+  ],
+  "leafletBounds": [
+    [
+      38.9915328,
+      -74.9356937
+    ],
+    [
+      39.1791503,
+      -74.7160084
+    ]
+  ],
+  "files": {
+    "demCog": "middle_township_dem_5ft_cog.tif",
+    "hillshadeCog": "middle_township_hillshade_cog.tif",
+    "hillshadePng": "middle_township_hillshade.png",
+    "boundaryGeojson": "middle_township_boundary.geojson"
+  }
+}
